@@ -11,11 +11,11 @@ with open("src/BCSFE_Python/files/version.txt", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="battle-cats-save-editor",
     version=version,
-    author="fieryhenry",
+    author="imasupergaybro",
     description="A battle cats save file editor",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fieryhenry/BCSFE-Python",
+    url="https://github.com/imasupergaybro/BCSFE-Python2",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -38,6 +38,6 @@ setuptools.setup(
             "pytest-cov",
         ],
     },
-    package_data={"BCSFE_Python": ["py.typed"]},
+    package_data={"BCSFE_Python2": ["py.typed"]},
     flake8={"max-line-length": 160},
 )
